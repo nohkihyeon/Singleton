@@ -15,11 +15,6 @@ public class TimeFactoryTest {
 		Time t4 = Time.of(5,2,10);
 		Time t5 = Time.of(5,2,10);
 		Time t6 = Time.of(5,2,10);
-//		Time tzn = Time.getInstance(Time.of(5,2,10));
-//		Time t2n = Time.getInstance(t2); 
-//		Time t3n = Time.getInstance(t3);
-//		Time t4n = Time.getInstance(t4);
-		
 		
 		System.out.println("같은 Time.of(5,2,4) 비교");
 		System.out.println(t5==t6);
